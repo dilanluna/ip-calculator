@@ -9,8 +9,12 @@
     "test": "vitest"
   },
   "dependencies": {
+    "clsx": "1.2.1",
+    "is-cidr": "5.0.2",
+    "is-ip": "5.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.38.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",

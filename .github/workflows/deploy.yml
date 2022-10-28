@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  test-build-&-deploy:
+  test-build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️

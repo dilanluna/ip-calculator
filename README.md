@@ -1,43 +1,9 @@
-# Vite, React, Typescript (Single Page App)
+# IP Calculator
 
-![Vite, React, Typescript](https://user-images.githubusercontent.com/102081703/179606868-c33e34c7-c8da-47ac-9ad4-dbe462570984.png)
+![Build](https://img.shields.io/github/workflow/status/dilanluna/ip-calculator/Test,%20Build%20&%20Deploy/main)
 
-## Features
+### Get network and broadcast address from a given **ip address**.
 
-- [Vite](https://vitejs.dev) + [React](https://reactjs.org) + [Typescript](https://www.typescriptlang.org)
-- Automaticaly format code on commit powered by [prettier](https://prettier.io), [husky](https://typicode.github.io/husky) and [lint-staged](https://github.com/okonet/lint-staged)
-- Preconfigured test environment with [vitest](https://vitest.dev) and [testing library](https://testing-library.com)
+<br />
 
-## Getting Started
-
-Use this repository as template.
-
-Install all dependencies running.
-
-```bash
-$ npm install
-```
-
-Start project in development mode.
-
-```bash
-$ npm run dev
-```
-
-Build your project.
-
-```bash
-$ npm run build
-```
-
-Or preview your production build.
-
-```bash
-$ npm run preview
-```
-
-Run tests.
-
-```bash
-$ npm run test
-```
+[![Go to page](https://user-images.githubusercontent.com/102081703/198845264-ab8bdf3b-7eb0-4140-9e58-a45063c7abb9.png)](https://dilanluna.github.io/ip-calculator)

@@ -24,7 +24,7 @@ export default function Form({ onSubmit }: { onSubmit: SubmitHandler }) {
       <div className="shadow sm:overflow-hidden sm:rounded-md">
         <div className="bg-white px-4 py-5 sm:p-6">
           <div className="grid grid-cols-3 gap-4">
-            <div className="col-span-2">
+            <div className="col-span-3 md:col-span-2">
               <label
                 htmlFor="Address"
                 className="block text-sm font-medium text-gray-700">
@@ -51,7 +51,7 @@ export default function Form({ onSubmit }: { onSubmit: SubmitHandler }) {
               ) : null}
             </div>
 
-            <div className="col-span-1">
+            <div className="col-span-3 md:col-span-1">
               <label
                 htmlFor="Netmask"
                 className="block text-sm font-medium text-gray-700">

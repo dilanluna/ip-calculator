@@ -8,8 +8,10 @@ export default function App() {
   return (
     <div className="py-6 sm:px-6 lg:px-8">
       <div className="container mx-auto">
-        <Form onSubmit={(data) => setNetwork(data)} />
-        <Results network={network} />
+        <div className="px-4 space-y-10">
+          <Form onSubmit={(data) => setNetwork(data)} />
+          <Results network={network} />
+        </div>
       </div>
     </div>
   );

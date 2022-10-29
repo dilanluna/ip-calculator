@@ -14,83 +14,81 @@ export default function Results({ network }: { network?: Network }) {
 
   return (
     <section aria-label="Calculation results">
-      <div className="mt-10">
-        <div className="shadow sm:overflow-hidden sm:rounded-md">
-          <div className="bg-white px-4 py-5 sm:p-6">
-            <table className="w-full">
-              <thead>
-                <tr>
-                  <td className="w-24" />
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <span
-                      id="AddressLabel"
-                      className="text-sm font-medium text-gray-700">
-                      Address
-                    </span>
-                  </td>
-                  <td>
-                    <span
-                      aria-labelledby="AddressLabel"
-                      className="font-mono text-blue-700">
-                      {ip ? ip.toString() : 'N/A'}
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span
-                      id="NetmaskLabel"
-                      className="text-sm font-medium text-gray-700">
-                      Netmask
-                    </span>
-                  </td>
-                  <td>
-                    <span
-                      aria-labelledby="NetmaskLabel"
-                      className="font-mono text-blue-700">
-                      {netmask ? netmask.toString() : 'N/A'}
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span
-                      id="NetworkLabel"
-                      className="text-sm font-medium text-gray-700">
-                      Network
-                    </span>
-                  </td>
-                  <td>
-                    <span
-                      aria-labelledby="NetworkLabel"
-                      className="font-mono text-blue-700">
-                      {ip && netmask ? ip.network(netmask).toString() : 'N/A'}
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <span
-                      id="BroadcastLabel"
-                      className="text-sm font-medium text-gray-700">
-                      Broadcast
-                    </span>
-                  </td>
-                  <td>
-                    <span
-                      aria-labelledby="BroadcastLabel"
-                      className="font-mono text-blue-700">
-                      {ip && netmask ? ip.broadcast(netmask).toString() : 'N/A'}
-                    </span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+      <div className="shadow sm:overflow-hidden sm:rounded-md">
+        <div className="bg-white px-4 py-5 sm:p-6">
+          <table className="w-full">
+            <thead>
+              <tr>
+                <td className="w-24" />
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <span
+                    id="AddressLabel"
+                    className="text-sm font-medium text-gray-700">
+                    Address
+                  </span>
+                </td>
+                <td>
+                  <span
+                    aria-labelledby="AddressLabel"
+                    className="font-mono text-blue-700">
+                    {ip ? ip.toString() : 'N/A'}
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    id="NetmaskLabel"
+                    className="text-sm font-medium text-gray-700">
+                    Netmask
+                  </span>
+                </td>
+                <td>
+                  <span
+                    aria-labelledby="NetmaskLabel"
+                    className="font-mono text-blue-700">
+                    {netmask ? netmask.toString() : 'N/A'}
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    id="NetworkLabel"
+                    className="text-sm font-medium text-gray-700">
+                    Network
+                  </span>
+                </td>
+                <td>
+                  <span
+                    aria-labelledby="NetworkLabel"
+                    className="font-mono text-blue-700">
+                    {ip && netmask ? ip.network(netmask).toString() : 'N/A'}
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    id="BroadcastLabel"
+                    className="text-sm font-medium text-gray-700">
+                    Broadcast
+                  </span>
+                </td>
+                <td>
+                  <span
+                    aria-labelledby="BroadcastLabel"
+                    className="font-mono text-blue-700">
+                    {ip && netmask ? ip.broadcast(netmask).toString() : 'N/A'}
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 # IP Calculator
 
-![Build](https://img.shields.io/github/workflow/status/dilanluna/ip-calculator/Test,%20Build%20&%20Deploy/main)
+![Build](https://img.shields.io/github/actions/workflow/status/dilanluna/ip-calculator/deploy.yml?branch=main)
 
 ### Get network and broadcast address from a given **ip address**.
 
